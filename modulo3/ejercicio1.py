@@ -4,13 +4,10 @@ edad = int(input("Cuántos años tenés? "))
 print(f"Hola, {nombre}.")
 
 if edad < 12:
-	print(f"Categoría: Niño/a")
-
-elif edad >= 12 and edad <=17:
-	print(f"Categoría: Adolescente")
-
-elif edad >=18 and edad <=64:
-	print(f"Categoría: Adulto/a")
-
+	print("Categoría: Niño/a")
+elif edad <=17:
+	print("Categoría: Adolescente")
+elif edad <=64:
+    print("Categoría: Adulto/a")
 else:
-	print(f"Categoría: Adulto/a mayor")
+	print("Categoría: Adulto/a mayor")
